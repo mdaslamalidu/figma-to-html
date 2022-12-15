@@ -20,3 +20,32 @@
 .navbar_title p{
     display: inline;
 }
+
+.header{
+    height: 565px;
+}
+
+.header_title{
+    position: relative;
+}
+
+.header_title img{
+    width: 100%;
+    height: 100%;
+}
+
+.header_title h1{
+    position: absolute;
+    width: 842px;
+    height: 250px;
+    left: 100px;
+    top: 107px;
+
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}

@@ -40,12 +40,122 @@
     height: 250px;
     left: 100px;
     top: 107px;
-
     font-family: 'ITC Avant Garde Gothic Std';
     font-style: normal;
     font-weight: 600;
     font-size: 80px;
     letter-spacing: -0.02em;
-
     color: #FFFFFF;
+}
+
+.services_title{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin:0 auto;
+}
+
+.left_service p{
+    color: #EC2232;
+    font-size: 16px;
+}
+
+.left_service h1{
+    width: 639px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #222222;
+} 
+
+.right_service{
+    margin-top: 180px;
+}
+
+.service_experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service_experience h1{
+    font-size: 100px;
+}
+
+.our_area{
+    background-image: url("/images/Mask\ group.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.area{
+    margin-left: 350px;
+    padding-top: 150px;
+}
+
+.area_title p{
+    color: #EC2232; 
+    font-size: 16px;
+}
+
+.area_title h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.area_product{
+    display: flex;
+    gap: 30px;
+   
+}
+
+.area_image{
+    width: 475px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+            0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.area_image img{
+    width: 100%;
+}
+
+.area_image p{
+    padding: 35px 60px;
+    background-color: #FFFFFF;
+}
+
+.industry_serve{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+
+.serve{
+    position: relative;
+}
+
+.industry_serve_img1{
+    position: absolute;
+    width: 590px;
+    background-color: #FFFFFF;
+}
+.industry_serve_img2{
+    position: absolute;
+    width: 590px;
+    top: 30px;
+    background-color: #FFFFFF;
+}
+
+.industry_serve_title{
+    position: absolute;
+    top: 60px;
+    font-size: 73px;
+    width: 590px;
+}
+
+.industry_server{
+    margin-left: 300px;
 }

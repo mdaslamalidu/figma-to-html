@@ -85,7 +85,7 @@
 }
 
 .our_area{
-    background-image: url("/images/Mask\ group.png");
+    background-image: url("/images/Mask\ group\ \(2\).png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,4 +169,8 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+.plan{
+    background-image: url("/images/Mask\ group\ \(3\).png");
 }

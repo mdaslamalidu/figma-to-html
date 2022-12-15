@@ -5,9 +5,18 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar_rectangle img{
     display: block;  
     margin: 9px 0px;  
+}
+
+.navbar_title{
+    border-bottom: 2px solid black;
+}
+
+.navbar_title p{
+    display: inline;
 }

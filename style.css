@@ -97,7 +97,7 @@
 }
 
 .our_area {
-  background-image: url("/images/Mask\ group\ \(2\).png");
+  background-image: url("/images/mask.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +223,7 @@
 }
 
 .plan {
-  background-image: url("/images/Mask\ group\ \(3\).png");
+  background-image: url("/images/mask1.png");
 }
 
 .ourPlan {
@@ -277,7 +277,7 @@
 
 .left-contact {
   width: 50%;
-  background-image: url("/images/Rectangle\ 489.png");
+  background-image: url("/images/Rectangle489.png");
 }
 
 .rignt_contact {
@@ -454,7 +454,7 @@
   }
 
   .our_area {
-    background-image: url("/images/Mask\ group\ \(2\).png");
+    background-image: url("/images/mask.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -581,7 +581,7 @@
   }
 
   .plan {
-    background-image: url("/images/Mask\ group\ \(3\).png");
+    background-image: url("/images/mask1.png");
   }
 
   .ourPlan {
@@ -637,7 +637,7 @@
 
   .left-contact {
     width: 100%;
-    background-image: url("/images/Rectangle\ 489.png");
+    background-image: url("/images/Rectangle489.png");
   }
 
   .rignt_contact {

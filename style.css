@@ -150,16 +150,27 @@
     background-color: #FFFFFF;
 }
 
+.our_industry{
+    margin-left: 300px;
+    margin-top: 400px;
+}
+
+.vector_title p {
+    margin-left: 50px;
+}
+
 .industry_serve{
     display: flex;
     justify-content: space-between;
-    margin-left: 300px;
-    margin-top: 458px;
+}
+
+.industry_server{
+    margin-top: 103px;
 }
 
 .serve{
     position: relative;
-  
+    margin-bottom: 29px;
 }
 
 .industry_serve_img1{
@@ -167,6 +178,7 @@
     width: 590px;
     background-color: #FFFFFF;
 }
+
 .industry_serve_img2{
     position: absolute;
     width: 590px;
@@ -179,21 +191,36 @@
     top: 60px;
     font-size: 73px;
     width: 590px;
+    background-color: white;
 }
 
 .industry_server{
-    margin-left: 300px;
-    border-left: 2px solid red;
+    border-left: 2px solid #EC2232;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    padding-left: 20px;
+    padding-left: 56px;
+    margin-bottom: 150px;
 }
 
 .industry_server_title{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-left: 25px;
+}
+
+.industry_server_title h3{
+    font-size: 30px;
+}
+
+.industry_serve_title p{
+    font-size: 18px;
+}
+
+.industry_number{
+    margin-right: 25px;
+    color: gray;
 }
 
 .plan{

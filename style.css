@@ -239,6 +239,7 @@
 
 .ourPlan h1{
     font-size: 50px;
+    margin: 30px 0px;
 }
 
 .ourPlan h2 {
@@ -249,6 +250,16 @@
     display: flex;
     gap: 50px;
     margin-top: 50px;
+}
+
+.our_company{
+    margin: 150px 0px;
+}
+
+.our_company h5{
+    text-align: center;
+    color: #E82232;
+    margin-bottom: 86px;
 }
 
 .company{
@@ -280,6 +291,24 @@
     width: 550px;
     margin: 150px 200px;
 }
+
+.contact-form h2{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact-form h2::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    top: 40px;
+    left: 0px;
+}
+
 .inputField{
     width: 50%;
     margin: 10px 0px;
@@ -292,7 +321,7 @@
 
 .btn{
     background-color: #EC2232;
-    border-radius: 15%;
+    border-radius: 25px;
     color: white;
     border: none;
     outline: none;

@@ -209,3 +209,38 @@
     align-items: center;
 }
 
+.contact{
+    display: flex;
+}
+
+.left-contact{
+    width: 50%;
+    background-image: url('/images/Rectangle\ 489.png');
+}
+
+.right-contact{
+    width: 50%;
+}
+
+.contact-form {
+    width: 550px;
+    margin: 150px 200px;
+}
+.inputField{
+    width: 50%;
+    margin: 10px 0px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+.btn{
+    background-color: #EC2232;
+    border-radius: 15%;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+}

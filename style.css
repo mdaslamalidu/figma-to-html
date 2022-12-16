@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 98%;
+    margin: 0 auto;
 }
 
 .navbar_rectangle img{
@@ -23,6 +25,8 @@
 
 .header{
     height: 565px;
+    width: 90%;
+    margin: 10px auto;
 }
 
 .header_title{
@@ -52,7 +56,7 @@
     display: flex;
     justify-content: space-between;
     width: 70%;
-    margin:0 auto;
+    margin:100px auto;
 }
 
 .left_service p{
@@ -74,6 +78,10 @@
     margin-top: 180px;
 }
 
+.right_service p{
+    text-align: justify;
+}
+
 .service_experience{
     display: flex;
     flex-direction: column;
@@ -82,6 +90,10 @@
 
 .service_experience h1{
     font-size: 100px;
+}
+
+.pluse{
+    color: #EC2232;
 }
 
 .our_area{
@@ -207,10 +219,12 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    
 }
 
 .contact{
     display: flex;
+    position: relative;
 }
 
 .left-contact{
@@ -218,7 +232,7 @@
     background-image: url('/images/Rectangle\ 489.png');
 }
 
-.right-contact{
+.rignt_contact{
     width: 50%;
 }
 
@@ -244,3 +258,34 @@
     outline: none;
     padding: 8px 15px;
 }
+
+.map{
+    position: absolute;
+    top: 100px; 
+    display: inline;
+}
+
+.content{
+    width: 207px;
+    display: inline;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top: 100px;
+    padding: 10px 15px;
+ 
+}
+
+.contact p{
+    color: gray;
+    margin-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+
+.contact h5{
+    margin-top: 18px;
+    font-size: 15px;
+}
+

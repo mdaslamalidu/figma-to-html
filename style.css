@@ -275,7 +275,7 @@
 
 .contact{
     display: flex;
-    position: relative;
+    
 }
 
 .left-contact{
@@ -285,6 +285,8 @@
 
 .rignt_contact{
     width: 50%;
+    background-color: #F8F8F8;
+    position: relative;
 }
 
 .contact-form {
@@ -328,6 +330,11 @@
     padding: 8px 15px;
 }
 
+.wrap_right_contact{
+    position: absolute;
+    left: -100px;
+}
+
 .map{
     position: absolute;
     top: 100px; 
@@ -358,3 +365,24 @@
     font-size: 15px;
 }
 
+.footer{
+    background-color: black;
+    color: white
+}
+
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:0 auto;
+    padding: 50px 0px;
+}
+
+.list-items{
+    display: flex;
+    gap: 50px;
+}
+
+.links{
+    text-align: end;
+}

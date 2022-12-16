@@ -174,3 +174,27 @@
 .plan{
     background-image: url("/images/Mask\ group\ \(3\).png");
 }
+
+.ourPlan{
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding: 150px 0px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.ourPlan h1{
+    font-size: 50px;
+}
+
+.ourPlan h2 {
+    font-size: 40px;
+}
+
+.planImage{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
